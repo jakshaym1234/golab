@@ -21,4 +21,9 @@ func main() {
 
 	slicec = append(slicec, 1, 2, 3, 4, 5)
 	fmt.Println(slicec)
+
+	sliced := []int{10, 20, 30, 40, 50, 60}
+	var slicee = []int{}
+	slicee = append(sliced[:2], sliced[3:]...)
+	fmt.Println(slicee)
 }
