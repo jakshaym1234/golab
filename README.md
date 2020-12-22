@@ -1,3 +1,3 @@
 # golab
-# self -learning for GOLANG
-# jakshaym1234
+## self -learning for GOLANG
+## jakshaym1234
