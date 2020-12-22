@@ -36,4 +36,11 @@ func main() {
 
 	_, ok3 := my2map["AUSSA"]
 	fmt.Println(ok3)
+
+	var my3map map[string]int
+	my3map = map[string]int{
+		"MH": 1,
+		"KL": 2,
+	}
+	fmt.Println(my3map)
 }
